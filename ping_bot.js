@@ -1,8 +1,7 @@
 const fetch = require('node-fetch');
 
 // URL-адреси для перевірки
-const railwayURL = 'the-swine-cycle-of-pigs-production.up.railway.app'; і
-const localURL = 'http://localhost:8080'; 
+const railwayURL = 'the-swine-cycle-of-pigs-production.up.railway.app'; 
 
 async function checkService(name, url) {
     try {
@@ -23,7 +22,6 @@ async function main() {
     console.log('🔍 Перевірка стану ботів...\n');
 
     const isRailwayAlive = await checkService('Бот на Railway', railwayURL);
-    const isLocalAlive = await checkService('Локальний бот', localURL);
 
     if (!isRailwayAlive) {
         console.log('\n[ℹ️] Схоже, бот на Railway недоступний. Можливо, ведуться технічні роботи...');
