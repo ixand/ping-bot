@@ -1,15 +1,15 @@
 {
-  "name": "pigs_bot",
-  "version": "1.0.0",
+  "name": "ping_bot",
+  "version": "0.4.1",
+  "type": "module",
   "description": "**Свиноворот свиней** — це веселий Telegram-бот, де кожен гравець може завести власного хряка, годувати його, тренувати, битися з іншими гравцями і піднімати рівень!",
-  "main": "index.js",
+  "main": "ping_bot.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node ping_bot.js"
   },
   "repository": {
-    "type": "module",
-    "url": "git+https://github.com/ixand/the-swine-cycle-of-pigs.git"
+    "type": "git",
+    "url": "https://github.com/ixand/the-swine-cycle-of-pigs.git"
   },
   "keywords": [],
   "author": "",
