@@ -8,7 +8,7 @@
     "start": "node ping_bot.js"
   },
   "repository": {
-    "type": "git",
+    "type": "module",
     "url": "git+https://github.com/ixand/the-swine-cycle-of-pigs.git"
   },
   "keywords": [],
@@ -19,6 +19,7 @@
   },
   "homepage": "https://github.com/ixand/the-swine-cycle-of-pigs#readme",
   "dependencies": {
+    "dotenv": "^16.5.0",
     "node-fetch": "^3.3.2"
   }
 }
